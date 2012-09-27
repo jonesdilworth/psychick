@@ -1,8 +1,27 @@
 # Psychick
 
-TODO: Write a gem description
+Psychick uses her crystal ball to predict alternate URLs.
+
+## Usage
+
+```ruby
+Psychick.alternates('http://google.com/search?q=cookie+monster&lang=en')
+# =>
+[
+  "http://google.com/search?q=cookie+monster&lang=en",      # original
+  "http://google.com/search?q=cookie+monster",              # rm unimportant params
+  "https://google.com/search?q=cookie+monster&lang=en",     # ssl
+  "http://www.google.com/search?q=cookie+monster&lang=en",  # add www
+  "https://google.com/search?q=cookie+monster",             # ssl; rm unimportant params
+  "http://www.google.com/search?q=cookie+monster",          # add www; rm unimportant params
+  "https://www.google.com/search?q=cookie+monster&lang=en", # ssl; add www
+  "https://www.google.com/search?q=cookie+monster"          # ssl; add www; rm unimportant params
+]
+```
 
 ## Installation
+
+If you haven't figured out how to install a gem, listen up:
 
 Add this line to your application's Gemfile:
 
@@ -15,10 +34,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install psychick
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 

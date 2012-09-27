@@ -1,22 +1,16 @@
-Copyright (c) 2012 Corey Ward
+Copyright (c) 2012 Corey Ward | Jones-Dilworth, Inc.
 
-MIT License
+NO License
 
-Permission is hereby granted, free of charge, to any person obtaining
+Permission is NOT granted, to any person obtaining
 a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+"Software"), to do anything with the software, whatsoever, except
+perhaps destroy it and notify us, because you shouldn't have it.
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+We have NOT released this software publicly. It is for us, and aliens.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+So aliens can use it. By which we mean extraterrestrials. And dead people,
+because Buzz Aldrin has joined them, and we support Buzz. Well, did support
+him. We're trying our best, okay?
+
+Bcon. Is it beacon, or bacon? WWJDID?
