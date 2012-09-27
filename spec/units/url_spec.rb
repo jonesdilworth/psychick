@@ -112,6 +112,8 @@ describe Psychick::URL do
 
     it 'should chain manipulators' do
       url.without_extension.without_query_string.without_www.without_unreserved_params.with_trailing_slash.should == 'http://google.com/search/'
+      url.with_ssl.without_ssl.should == url
+      url.with_trailing_slash.without_trailing_slash.should == url
     end
 
     it 'should add https' do

@@ -74,7 +74,7 @@ module Psychick
     end
 
     def with_trailing_slash
-      self + '/'
+      without_query_string << '/' << query_string_from_params(params)
     end
 
     def without_query_string
