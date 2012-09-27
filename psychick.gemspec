@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Psychick::VERSION
   gem.authors       = ["Corey Ward"]
   gem.email         = ["corey.atx@gmail.com"]
-  gem.description   = %q{Psychick predicts alternate URLs for a given page}
+  gem.description   = %q{Psychick predicts alternate URLs for a provided url}
   gem.summary       = %q{Psychick augments a URL in a variety of ways that are likely to produce valid alternates for the same resource.}
   gem.homepage      = "http://github.com/jonesdilworth/psychick"
 
@@ -17,5 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.add_development_dependency 'rspec'
   gem.add_dependency 'active_support'
 end
